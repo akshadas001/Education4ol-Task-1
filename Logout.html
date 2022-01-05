@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+h1 {
+    margin-top: 227px;
+    margin-left: 220px;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #ffffff;
+  padding-top: 50px;
+}
+
+
+
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+</style>
+<body>
+
+<h2>Logout Page</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Logout</button>
+
+<div id="id01" class="modal">
+    <h1>
+        "You have been logged out successful" Thankyou for visiting.
+    </h1>
+
+</div>
+
+
+
+</body>
+</html>
